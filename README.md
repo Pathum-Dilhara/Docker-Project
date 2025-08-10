@@ -4,7 +4,7 @@ A full-stack **MERN** (MongoDB, Express.js, React, Node.js) application containe
 This setup ensures a consistent development environment and makes deployment easier.
 
 ## 📂 Project Structure
-
+```
 project-root/
 │
 ├── backend/ # Node.js + Express API
@@ -12,7 +12,7 @@ project-root/
 ├── docker-compose.yml
 ├── Dockerfile # (For backend or separate frontend Dockerfile)
 └── README.md
-
+```
 ## 📦 Build and start containers
 ```
 docker-compose up --build
